@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.toastBox {
+  border: solid 1px red;
+  width: 200px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.toastContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
